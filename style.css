@@ -1,0 +1,207 @@
+/* 
+Paleta
+#A0D9C4
+#266137
+#9EE6B3
+#58E07E
+#43614B
+#44AD62
+https://color.adobe.com/pt/search?q=android
+*/
+
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'BillieFont';
+    src: url(pacote-projeto-d010/fontes/BillieDEMORegular.otf);
+}
+
+@font-face {
+    font-family:'fonteDroid' ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+@font-face {
+    
+    font-family:"fontTajawal" ;
+    src: url(pacote-projeto-d010/fontes/Tajawal/Tajawal-ExtraBold.ttf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color:#d8d89f ; 
+    font-size:large;
+    text-align: justify;
+}
+header{
+    min-height: 150px;  
+    background-image: linear-gradient(#1f9741,#276438,#1b4627); 
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+header > h1{
+    text-align: center; 
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family:BillieFont,Arial, Helvetica, sans-serif;
+    text-shadow:black 0px 4px 0px;
+    color:rgb(247, 247, 247);   
+}
+header > h2{
+    text-align: center;     
+    font-size:16px;
+    font-family:fontTajawal,Arial, Helvetica, sans-serif;
+    color:rgb(247, 247, 247);
+}
+#NavBar{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#NavBar>a:hover{
+    background-color:#26af6d;
+    color: #1b4627; 
+   
+}
+#NavBar > a{
+    text-decoration: none;
+    background-size: auto;
+    padding: 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;  
+    color:#99e099;
+    margin-left: 20px;
+    
+   
+}
+main{
+    min-width: 10px;
+    max-width: 1000px;
+    background-color: white ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    margin: auto;
+    padding: 20px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+#title{
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-family: fonteDroid,Arial, Helvetica, sans-serif;
+    color: #266137;
+}
+.title2{
+    margin-top:10px;
+    margin-bottom: 15px;
+    font-family: fonteDroid,Arial, Helvetica, sans-serif;
+    color: #266137;
+    background-image: linear-gradient(to right , #99e099 , #e2eee2, white);  
+}
+p{
+    text-indent:30px; /* Espaço de parágrafo */
+    color: black;
+  }
+#bugdroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.video{
+    background-color: #276438;
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56.5%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+.imagens{
+    margin-top:12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+#Irina-img{
+    display:block;
+    margin:auto;   
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top:12px;
+}
+#textExtra{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+aside{
+    padding: 10px;
+    background-color: #c4f5e3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(134, 134, 134, 0.733);
+    border-radius:10px;
+}
+.lista{
+   list-style-position: inside;
+   columns: 2;
+}
+aside > h3{ 
+    background-color:rgb(255, 255, 255); /*rgb(38, 97, 55);*/
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+#linkAndroidHystory{
+    text-decoration: none;
+    color: #266137 ;
+}
+footer{
+    background-color: #266137;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+#agradecimento{
+    margin-top: 10px;
+}
+.section-author{
+    margin-top:50px;
+    display: flex;
+  }
+  
+  .text-bio{
+   margin-left: 24px;
+  }
+  #Author-title{
+    font-size:18px;
+    color:rgb(43, 43, 43);
+  }
+  #Bio-Author{
+    margin-left: -20px;
+    font-size: 15px;
+    color:#646464;
+  }
+  abbr{
+    text-decoration: none;
+  }
+.linksExternos{
+    text-decoration:none;
+    font-weight: bold;
+    color:#1b4627;
+    background-color:#9EE6B3;
+    padding: 2.5px;
+}
