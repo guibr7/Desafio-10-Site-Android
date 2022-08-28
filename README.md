@@ -1,2 +1,2 @@
-# Desafio-10-Site-Android
+# Curiosidades-de-tecnologia
  
